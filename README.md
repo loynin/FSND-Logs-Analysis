@@ -5,7 +5,8 @@ Content
 
 1. Project Description
 2. Structure of Project Files
-3. How to Run the Project
+3. Run-time Environment
+4. How to Run the Project
 
 
 ### 1. Project Description:
@@ -36,8 +37,14 @@ loganalysis.py, and readme.md`
       
     `Note: file newsdata.sql is in the newsdata.zip file. Uncompress the zip
             file to get the newsdata.sql`
+
+### 3. Run-time Environment
+
+Assume that the user will be using a VirtualBox/Vagrant environment that contains the necessary software components such as (a Python interpreter, an up and running PostgreSQL environment, and the psycopg2 library). These tools could be download from the following:
+<a href="https://www.vagrantup.com/">Vagrant</a>, <a href="https://www.virtualbox.org/">VirtualBox</a>. 
+For Virtual machine environment for this project could be download from https://github.com/udacity/fullstack-nanodegree-vm 
       
-### 3. How to Run the Project
+### 4. How to Run the Project
 -------------------------
 
 Before running the code or create the tables, there will be a need to create 
